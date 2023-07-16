@@ -1,3 +1,8 @@
+@import "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap";
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -40,4 +45,8 @@ body {
 img, picture, svg {
   max-width: 100%;
   display: block;
+}
+
+#result {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }/*# sourceMappingURL=style.css.map */
