@@ -1,9 +1,19 @@
+#component
+	@media screen and (min-width: $width-mq)
+		width: 610px
+		height: 400px
+		display: grid
+		grid-template-columns: 1fr 1fr
+		border-radius: 25px
+	
 #result
 	background: linear-gradient($clr-light-slate-blue, $clr-light-royal-blue)
 	text-align: center
 	padding: 25px 50px 35px
 	color: $clr-light-lavender
 	border-radius: 0 0 25px 25px
+	@media screen and (min-width: $width-mq)
+		border-radius: 25px
 	h1
 		font-size: 1.1rem
 		font-weight: $fw-bold

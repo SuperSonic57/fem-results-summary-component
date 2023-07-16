@@ -48,12 +48,34 @@ img, picture, svg {
   display: block;
 }
 
+@media screen and (min-width: 1440px) {
+  body {
+    display: grid;
+    place-items: center;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  #component {
+    width: 610px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-radius: 25px;
+  }
+}
+
 #result {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   text-align: center;
   padding: 25px 50px 35px;
   color: hsl(241, 100%, 89%);
   border-radius: 0 0 25px 25px;
+}
+@media screen and (min-width: 1440px) {
+  #result {
+    border-radius: 25px;
+  }
 }
 #result h1 {
   font-size: 1.1rem;
