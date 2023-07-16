@@ -53,6 +53,7 @@ img, picture, svg {
   text-align: center;
   padding: 25px 50px;
   color: hsl(241, 100%, 89%);
+  border-radius: 0 0 25px 25px;
 }
 #result h1 {
   font-size: 1.1rem;
@@ -60,7 +61,7 @@ img, picture, svg {
 }
 #result .score-circle {
   background: linear-gradient(hsl(256, 72%, 46%), hsla(241, 72%, 46%, 0));
-  width: 45%;
+  width: 135px;
   margin: 20px auto;
   aspect-ratio: 1/1;
   display: grid;
