@@ -98,4 +98,15 @@ img, picture, svg {
   border: 1px solid black;
   border-radius: 10px;
   margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+#summary .summary-item .summary-item-title {
+  display: flex;
+  align-items: center;
+}
+#summary .summary-item .summary-item-score {
+  display: flex;
+  align-items: center;
+  justify-content: right;
 }/*# sourceMappingURL=style.css.map */
