@@ -3,7 +3,7 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 15px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 700px) {
   body {
     background: hsl(221, 100%, 96%);
   }
@@ -53,14 +53,14 @@ img, picture, svg {
   display: block;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 700px) {
   body {
     display: grid;
     place-items: center;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 700px) {
   #component {
     width: 610px;
     height: 400px;
@@ -79,7 +79,7 @@ img, picture, svg {
   color: hsl(241, 100%, 89%);
   border-radius: 0 0 25px 25px;
 }
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 700px) {
   #result {
     border-radius: 25px;
     display: flex;
