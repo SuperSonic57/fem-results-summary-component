@@ -68,6 +68,7 @@ img, picture, svg {
     grid-template-columns: 1fr 1fr;
     border-radius: 25px;
     background: hsl(0, 0%, 100%);
+    box-shadow: 5px 5px 50px #c7d9ff;
   }
 }
 
