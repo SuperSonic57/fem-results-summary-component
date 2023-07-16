@@ -51,7 +51,7 @@ img, picture, svg {
 #result {
   background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   text-align: center;
-  padding: 25px 50px;
+  padding: 25px 50px 35px;
   color: hsl(241, 100%, 89%);
   border-radius: 0 0 25px 25px;
 }
@@ -120,8 +120,28 @@ img, picture, svg {
   align-items: center;
   gap: 10px;
 }
+#summary .summary-item .summary-item-title.reaction {
+  color: hsla(0, 100%, 67%, 0.75);
+  font-weight: 700;
+}
+#summary .summary-item .summary-item-title.memory {
+  color: hsla(39, 100%, 56%, 0.75);
+  font-weight: 700;
+}
+#summary .summary-item .summary-item-title.verbal {
+  color: hsla(166, 100%, 37%, 0.75);
+  font-weight: 700;
+}
+#summary .summary-item .summary-item-title.visual {
+  color: hsla(234, 85%, 45%, 0.75);
+  font-weight: 700;
+}
 #summary .summary-item .summary-item-score {
   display: flex;
   align-items: center;
   justify-content: right;
+}
+#summary .summary-item .summary-item-score .score-of-100 {
+  color: hsl(224, 30%, 27%);
+  font-weight: 700;
 }/*# sourceMappingURL=style.css.map */

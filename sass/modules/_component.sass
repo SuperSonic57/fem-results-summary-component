@@ -1,7 +1,7 @@
 #result
 	background: linear-gradient($clr-light-slate-blue, $clr-light-royal-blue)
 	text-align: center
-	padding: 25px 50px
+	padding: 25px 50px 35px
 	color: $clr-light-lavender
 	border-radius: 0 0 25px 25px
 	h1
@@ -44,18 +44,33 @@
 		display: grid
 		grid-template-columns: 1fr 1fr
 		&.reaction
-			background: $clr-light-red-transparent
+			background: $clr-light-red-transparent-bg
 		&.memory
-			background: $clr-orangey-yellow-transparent
+			background: $clr-orangey-yellow-transparent-bg
 		&.verbal
-			background: $clr-green-teal-transparent
+			background: $clr-green-teal-transparent-bg
 		&.visual
-			background: $clr-cobalt-blue-transparent
+			background: $clr-cobalt-blue-transparent-bg
 		.summary-item-title
 			display: flex
 			align-items: center
 			gap: 10px
+			&.reaction
+				color: $clr-light-red-transparent-text
+				font-weight: $fw-bold
+			&.memory
+				color: $clr-orangey-yellow-transparent-text
+				font-weight: $fw-bold
+			&.verbal
+				color: $clr-green-teal-transparent-text
+				font-weight: $fw-bold
+			&.visual
+				color: $clr-cobalt-blue-transparent-text
+				font-weight: $fw-bold
 		.summary-item-score
 			display: flex
 			align-items: center
 			justify-content: right
+			.score-of-100
+				color: $clr-dark-gray-blue
+				font-weight: $fw-bold
