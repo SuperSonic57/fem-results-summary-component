@@ -82,6 +82,8 @@ img, picture, svg {
 @media screen and (min-width: 1440px) {
   #result {
     border-radius: 25px;
+    display: flex;
+    align-items: center;
   }
 }
 #result h1 {
@@ -111,7 +113,7 @@ img, picture, svg {
   font-size: 1.4rem;
   margin-bottom: 10px;
 }
-#result > p {
+#result .description {
   line-height: 1.3;
 }
 
