@@ -3,6 +3,11 @@ body {
   font-family: "Hanken Grotesk", sans-serif;
   font-size: 15px;
 }
+@media screen and (min-width: 1440px) {
+  body {
+    background: hsl(221, 100%, 96%);
+  }
+}
 
 * {
   margin: 0;
@@ -62,6 +67,7 @@ img, picture, svg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     border-radius: 25px;
+    background: hsl(0, 0%, 100%);
   }
 }
 
