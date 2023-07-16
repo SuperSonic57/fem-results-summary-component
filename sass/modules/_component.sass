@@ -31,19 +31,30 @@
 
 #summary
 	padding: 25px
+	color: lighten($clr-dark-gray-blue, 30%)
 	h2
+		color: $clr-dark-gray-blue
 		font-weight: $fw-bold
 		font-size: 1.1rem
 		margin-bottom: 20px
 	.summary-item
-		border: 1px solid black
 		border-radius: 10px
+		padding: 12px
 		margin: 15px 0
 		display: grid
 		grid-template-columns: 1fr 1fr
+		&.reaction
+			background: $clr-light-red-transparent
+		&.memory
+			background: $clr-orangey-yellow-transparent
+		&.verbal
+			background: $clr-green-teal-transparent
+		&.visual
+			background: $clr-cobalt-blue-transparent
 		.summary-item-title
 			display: flex
 			align-items: center
+			gap: 10px
 		.summary-item-score
 			display: flex
 			align-items: center

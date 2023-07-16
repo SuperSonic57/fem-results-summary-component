@@ -2,10 +2,33 @@
 	
 // Colors (summary items)
 
-$clr-light-red: hsl(0, 100%, 67%)
-$clr-orangey-yellow: hsl(39, 100%, 56%)
-$clr-green-teal: hsl(166, 100%, 37%)
-$clr-cobalt-blue: hsl(234, 85%, 45%)
+$alpha: 0.05
+
+$clr-light-red-h: 0
+$clr-light-red-s: 100%
+$clr-light-red-l: 67%
+
+$clr-orangey-yellow-h: 39
+$clr-orangey-yellow-s: 100%
+$clr-orangey-yellow-l: 56%
+
+$clr-green-teal-h: 166
+$clr-green-teal-s: 100%
+$clr-green-teal-l: 37%
+
+$clr-cobalt-blue-h: 234
+$clr-cobalt-blue-s: 85%
+$clr-cobalt-blue-l: 45%
+
+$clr-light-red: hsl($clr-light-red-h, $clr-light-red-s, $clr-light-red-l)
+$clr-orangey-yellow: hsl($clr-orangey-yellow-h, $clr-orangey-yellow-s, $clr-orangey-yellow-l)
+$clr-green-teal: hsl($clr-green-teal-h, $clr-green-teal-s, $clr-green-teal-l)
+$clr-cobalt-blue: hsl($clr-cobalt-blue-h, $clr-cobalt-blue-s, $clr-cobalt-blue-l)
+
+$clr-light-red-transparent: hsla($clr-light-red-h, $clr-light-red-s, $clr-light-red-l, $alpha)
+$clr-orangey-yellow-transparent: hsla($clr-orangey-yellow-h, $clr-orangey-yellow-s, $clr-orangey-yellow-l, $alpha)
+$clr-green-teal-transparent: hsla($clr-green-teal-h, $clr-green-teal-s, $clr-green-teal-l, $alpha)
+$clr-cobalt-blue-transparent: hsla($clr-cobalt-blue-h, $clr-cobalt-blue-s, $clr-cobalt-blue-l, $alpha)
 
 // Colors (results background)
 
@@ -22,7 +45,7 @@ $clr-persian-blue: hsla(241, 72%, 46%, 0)
 $clr-white: hsl(0, 0%, 100%)
 $clr-pale-blue: hsl(221, 100%, 96%)
 $clr-light-lavender: hsl(241, 100%, 89%)
-$dark-gray-blue: hsl(224, 30%, 27%)
+$clr-dark-gray-blue: hsl(224, 30%, 27%)
 
 // Fonts
 

@@ -88,22 +88,37 @@ img, picture, svg {
 
 #summary {
   padding: 25px;
+  color: #7082b2;
 }
 #summary h2 {
+  color: hsl(224, 30%, 27%);
   font-weight: 700;
   font-size: 1.1rem;
   margin-bottom: 20px;
 }
 #summary .summary-item {
-  border: 1px solid black;
   border-radius: 10px;
+  padding: 12px;
   margin: 15px 0;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
+#summary .summary-item.reaction {
+  background: hsla(0, 100%, 67%, 0.05);
+}
+#summary .summary-item.memory {
+  background: hsla(39, 100%, 56%, 0.05);
+}
+#summary .summary-item.verbal {
+  background: hsla(166, 100%, 37%, 0.05);
+}
+#summary .summary-item.visual {
+  background: hsla(234, 85%, 45%, 0.05);
+}
 #summary .summary-item .summary-item-title {
   display: flex;
   align-items: center;
+  gap: 10px;
 }
 #summary .summary-item .summary-item-score {
   display: flex;
